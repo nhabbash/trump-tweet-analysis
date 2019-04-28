@@ -16,15 +16,32 @@ Donald Trump uses Twitter a lot. *A lot*. The President of the USA is very vocal
 
 The repository contains the sentiment analysis work we've conducted on his tweets from roughly the last year and a half to see if we could find any interesting facts about them.
 
+## Requirements
+* Python 3
+* Python virtual environment of your choice
+* Jupyter Notebook
+
+Or:
+* Google account (Colaboratory)
+
 ## Installation
 
 ```sh
-git clone https://github.com/Dodicin/trump-tweet-analysis
+git clone https://github.com/Dodicin/trump-tweet-analysis 
 ```
 
 ## Usage example
 
-Start notebook or colaboratory
+```sh
+cd trump-tweet-analysis
+#Setup your virtual environment for the project
+jupyter notebook
+```
+
+Or:
+
+* Upload `analysis.ipynb` on Google Drive
+* Open it with Colaboratory
 
 # 
 ## Acknowledgements
