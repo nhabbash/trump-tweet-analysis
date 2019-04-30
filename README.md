@@ -27,15 +27,23 @@ Or:
 ## Installation
 
 ```sh
-git clone https://github.com/Dodicin/trump-tweet-analysis 
+$ git clone https://github.com/Dodicin/trump-tweet-analysis 
 ```
 
 ## Usage example
 
 ```sh
-cd trump-tweet-analysis
-#Setup your virtual environment for the project
-jupyter notebook
+$ cd trump-tweet-analysis
+#Setup your virtual environment for the project, I'm using virtualenv
+$ virtualenv .venv
+$ source .venv/bin/activate.fish
+#Installing Python kernel in the virtual environment
+(.venv) $ pip install ipykernel
+(.venv) $ ipython kernel install --user --name=.ven
+(.venv) $ jupyter notebook
+
+#When you're finished
+(.venv) $ deactivate
 ```
 
 Or:
