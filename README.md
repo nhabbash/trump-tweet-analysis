@@ -30,13 +30,13 @@ Or:
 $ git clone https://github.com/Dodicin/trump-tweet-analysis 
 ```
 
-## Usage example
+## Usage
 
 ```sh
 $ cd trump-tweet-analysis
 #Setup your virtual environment for the project, I'm using virtualenv
 $ virtualenv .venv
-$ source .venv/bin/activate.fish
+$ source .venv/bin/activate
 #Installing Python kernel in the virtual environment
 (.venv) $ pip install ipykernel
 (.venv) $ ipython kernel install --user --name=.ven
@@ -50,6 +50,12 @@ Or:
 
 * Upload `analysis.ipynb` on Google Drive
 * Open it with Colaboratory
+
+## Feedback
+* Add community detection (Stylometric analysis, profiling) to analysis
+* Might be useful to check timezone distributions differences
+* Add more visual markers in the presentations
+* Actual sentiment dynamics (sentiment changing in time)
 
 # 
 ## Acknowledgements
